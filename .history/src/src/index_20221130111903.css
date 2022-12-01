@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  width: 100%;
+  height: auto;
+  background-color: rgb(227, 212, 194);
+}
+.header{
+  max-width: 1280px;
+  height: auto;
+  background-color: rgb(89, 255, 0);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content:space-between
+}
+.header ul li{
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+  transition: all 0.5s;
+}
+.header ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 800;
+ transition: all 0.5s;
+ margin-left: 10px;
+}
+.header ul li:hover {
+  color: rgb(41, 34, 34);
+  background-color: rgb(195, 173, 173);
+  border-radius: 10px;
+}
+.menu input{
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+  border:0px;
+}
+.menu ul  .start-discover{
+  font-size: 20px;
+  background-color: rgb(107, 107, 235);
+  color: white;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+.icon-search-Go{
+  transform: translate(0px,4px);
+}
+.button-search{
+  font-size: 33.4px;
+  transform: translate(-43px,5px);
+  color: rgb(157, 155, 155);
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  background-color: white;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+.button-search:hover{
+  font-size: 33.4px;
+  transform: translate(-43px,5px);
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  color: rgb(92, 88, 88);
+  background-color: rgb(251, 246, 246);
+}
+/* Logo */
+
+.logo{
+  margin-left: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+/* 
+Body1 */
+
+.container-body1{
+  max-width: 1280px;
+  margin: auto;
+  background-color: red;
+}
+.center-body1{
+  text-align: center;
+}
+.center-body1 .grid-card .card{
+  background-color: white;
+  width: 300px;
+  border: 1px solid rgb(205, 195, 195);
+  box-shadow: 0px 0px 2px rgb(88, 86, 86);
+}
+.center-body1 .grid-card .card h4{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.grid-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr;
+  display: flex;
+  justify-content:space-between;
+}
